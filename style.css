@@ -15,9 +15,9 @@
 .header {
     height: 800px;
     background-color: rgb(225, 255, 143);
-    background-image: url(big-star.svg); 
+    background-image: url(img/bg-header.png); 
     background-repeat: no-repeat;
-    background-position: calc(50% + 600px) calc(50% - 200px);
+    background-position: calc(50% + 270px) calc(50% - 125px);
 }
 
 .header__title{
@@ -33,6 +33,10 @@
     font-weight: 400;
     line-height: 32px;
     padding-bottom: 48px;
+}
+
+.header__link {
+    scroll-behavior: smooth;
 }
 
 .header__btn {
@@ -70,6 +74,9 @@
 .info {
     height: 1470px;
     background: rgb(32, 32, 39);
+    background-image: url(img/bg-games.png);
+    background-repeat: no-repeat;
+    background-position: -20% 10%;
 }
 
 .info__main-title {
@@ -97,12 +104,14 @@
 .games-box__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
     
 }
 
-.games-box__flex {
-   display: flex;
-   gap: 32px;
+.games-box__column {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
 }
 
 .games-box__link {
@@ -139,7 +148,7 @@
 }
 
 .games-box__img {
-    width: 378px;
+    width: 379px;
 }
 
 .games-box__section {
@@ -167,9 +176,6 @@
     padding-top: 16px;
 }
 
-.indent {
-    margin-top: 32px;
-}
 
 .games-box__img {
     height: 314px;

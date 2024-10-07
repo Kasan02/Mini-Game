@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="html" lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -21,18 +21,20 @@
             <h1 class="header__title">Добро пожаловать <br> на мой сайт мини-игр</h1>
             <h2 class="header__subtitle">Тебе предстоит пройти несколько увлекательных игр. <br> Если готов, нажимай
                 «Поехали!» и приступай.</h2>
+                <a class="header__link" href="#about-games">
             <button class="header__btn">Поехали!</button>
+        </a>
         </section>
     </header>
     <div class="scroll-bar">   
     </div>
-    <div class="info center">
+    <div class="info center" id="about-games">
         <h1 class="info__main-title">Об играх</h1>
-        <h2 class="info__main-subtitle">В моей коллекции представлено 6 игр на разные темы. <br>Игры несложные — в них может поиграть каждый.
+        <h2 class="info__main-subtitle">В моей коллекции представлено 6 игр на разные темы. <br>Игры несложные — в них может поиграть каждый. <br>
             Все игры доступны для пользования.</h2>
         <section class="games-box center">
             <div class="games-box__grid">
-                <div class="games-box__flex">
+                <div class="games-box__column">
                     <a class="games-box__link" href="#">
             <article class="games-box__product small">
                 <img class="games-box__img" src="img/img1.png" alt="img">
@@ -43,45 +45,47 @@
             </article>
             </a>
             <a class="games-box__link" href="#">
-            <article class="games-box__product big">
-                <img class="games-box__img" src="img/img2.png" alt="img">
-                <div class="games-box__section">
-                <p class="games-box__title">Игра № 2</p>
-                <h3 class="games-box__subtitle">Простая <br> арифметика</h3>
-                </div>
-            </article>
-        </a>
+                <article class="games-box__product big-big">
+                    <img class="games-box__img" src="img/img4.png" alt="img">
+                    <div class="games-box__section">
+                    <p class="games-box__title">Игра № 4</p>
+                    <h3 class="games-box__subtitle">Камень,<br>ножницы,<br>бумага</h3>
+                    </div>
+                </article>
+            </a>
+        </div>
+        <div class="games-box__column">
             <a class="games-box__link" href="#">
-            <article class="games-box__product small">
-                <img class="games-box__img" src="img/img3.png" alt="img">
-                <div class="games-box__section">
-                <p class="games-box__title">Игра № 3</p>
-                <h3 class="games-box__subtitle">Переверни текст</h3>
-                </div>
-            </article>
-        </a>
-        </div>
-        </div>
-        <div class="games-box__grid">
+                <article class="games-box__product big">
+                    <img class="games-box__img" src="img/img2.png" alt="img">
+                    <div class="games-box__section">
+                    <p class="games-box__title">Игра № 2</p>
+                    <h3 class="games-box__subtitle">Простая <br> арифметика</h3>
+                    </div>
+                </article>
+            </a>
             <div class="games-box__flex">
                 <a class="games-box__link" href="#">
-            <article class="games-box__product big-big">
-                <img class="games-box__img" src="img/img4.png" alt="img">
-                <div class="games-box__section">
-                <p class="games-box__title">Игра № 4</p>
-                <h3 class="games-box__subtitle">Камень,<br>ножницы,<br>бумага</h3>
-                </div>
-            </article>
-        </a>
+                    <article class="games-box__product big">
+                        <img class="games-box__img" src="img/img5.png" alt="img">
+                        <div class="games-box__section">
+                        <p class="games-box__title">Игра № 5</p>
+                        <h3 class="games-box__subtitle">Простая <br> викторина</h3>
+                        </div>
+                    </article>
+                </a>
+        </div>
+        </div>
+        <div class="games-box__column">
             <a class="games-box__link" href="#">
-            <article class="games-box__product big indent">
-                <img class="games-box__img" src="img/img5.png" alt="img">
-                <div class="games-box__section">
-                <p class="games-box__title">Игра № 5</p>
-                <h3 class="games-box__subtitle">Простая <br> викторина</h3>
-                </div>
-            </article>
-        </a>
+                <article class="games-box__product small">
+                    <img class="games-box__img" src="img/img3.png" alt="img">
+                    <div class="games-box__section">
+                    <p class="games-box__title">Игра № 3</p>
+                    <h3 class="games-box__subtitle">Переверни текст</h3>
+                    </div>
+                </article>
+            </a>
             <a class="games-box__link" href="#">
             <article class="games-box__product big-big">
                 <img class="games-box__img" src="img/img6.png" alt="img">
@@ -91,6 +95,7 @@
                 </div>
             </article>
         </a>
+            </div>
             </div>
             </div>
         </section>
