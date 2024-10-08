@@ -1,11 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="html" lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+</head>
+
+<body class="body">
+    <header class="header center">
+        <section class="header__content">
+            <h1 class="header__title">Добро пожаловать <br> на мой сайт мини-игр</h1>
+            <h2 class="header__subtitle">Тебе предстоит пройти несколько увлекательных игр. <br> Если готов, нажимай
+                «Поехали!» и приступай.</h2>
+                <a class="header__link" href="#about-games">
+            <button class="header__btn">Поехали!</button>
+        </a>
+        </section>
+    </header>
+    <div class="scroll-bar">   
+    </div>
+    <div class="info center" id="about-games">
+        <h1 class="info__main-title">Об играх</h1>
+        <h2 class="info__main-subtitle">В моей коллекции представлено 6 игр на разные темы. <br>Игры несложные — в них может поиграть каждый. <br>
+            Все игры доступны для пользования.</h2>
+        <section class="games-box center">
+            <div class="games-box__grid">
+                <div class="games-box__column">
+                    <a class="games-box__link" href="#">
+            <article class="games-box__product small">
+                <img class="games-box__img" src="img/img1.png" alt="img">
+                <div class="games-box__section">
+                <p class="games-box__title">Игра № 1</p>
+                <h3 class="games-box__subtitle">Угадай число</h3>
+                </div>
+            </article>
+            </a>
+            <a class="games-box__link" href="#">
+                <article class="games-box__product big-big">
+                    <img class="games-box__img" src="img/img4.png" alt="img">
+                    <div class="games-box__section">
+                    <p class="games-box__title">Игра № 4</p>
+                    <h3 class="games-box__subtitle">Камень,<br>ножницы,<br>бумага</h3>
+                    </div>
+                </article>
+            </a>
+        </div>
+        <div class="games-box__column">
+            <a class="games-box__link" href="#">
+                <article class="games-box__product big">
+                    <img class="games-box__img" src="img/img2.png" alt="img">
+                    <div class="games-box__section">
+                    <p class="games-box__title">Игра № 2</p>
+                    <h3 class="games-box__subtitle">Простая <br> арифметика</h3>
+                    </div>
+                </article>
+            </a>
+            <div class="games-box__flex">
+                <a class="games-box__link" href="#">
+                    <article class="games-box__product big">
+                        <img class="games-box__img" src="img/img5.png" alt="img">
+                        <div class="games-box__section">
+                        <p class="games-box__title">Игра № 5</p>
+                        <h3 class="games-box__subtitle">Простая <br> викторина</h3>
+                        </div>
+                    </article>
+                </a>
+        </div>
+        </div>
+        <div class="games-box__column">
+            <a class="games-box__link" href="#">
+                <article class="games-box__product small">
+                    <img class="games-box__img" src="img/img3.png" alt="img">
+                    <div class="games-box__section">
+                    <p class="games-box__title">Игра № 3</p>
+                    <h3 class="games-box__subtitle">Переверни текст</h3>
+                    </div>
+                </article>
+            </a>
+            <a class="games-box__link" href="#">
+            <article class="games-box__product big-big">
+                <img class="games-box__img" src="img/img6.png" alt="img">
+                <div class="games-box__section">
+                <p class="games-box__title">Игра № 6</p>
+                <h3 class="games-box__subtitle">Генератор <br> случайных <br> цветов</h3>
+                </div>
+            </article>
+        </a>
+            </div>
+            </div>
+            </div>
+        </section>
+    </div>
+
 </body>
+
 </html>
