@@ -1,0 +1,77 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header__title {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 49px;
+        text-align: center;
+    }
+
+    .header__subtitle {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+        padding-bottom: 36px;
+    }
+
+    .header__box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header__link-btn {
+        font-size: 16px;
+    }
+
+    .info {
+        display: none;
+    }
+
+    .game-play__title {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 49px;
+    }
+
+    .game-play__subtitle {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
+        width: 285px;
+    }
+
+    .game-play__text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .game-play__flex {
+        display: block;
+    }
+
+    .game-play__product {
+        display: block;
+    }
+
+    .game-play__img {
+        height: 285px;
+        width: 343px;
+        order: 1;
+    }
+    .game-play__box {
+        order: 2;
+        padding: 29.04px 29.04px 32.67px 29.04px;
+        width: 323px;
+    }
+
+    .margin {
+        display: none;
+    }
+
+}

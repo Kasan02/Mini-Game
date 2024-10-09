@@ -71,7 +71,7 @@
     background: rgb(32, 32, 39);
     background-image: url(img/bg-games.png);
     background-repeat: no-repeat;
-    background-position: -20% 10%;
+    background-position: calc(50% + 100px) calc(50% - 270px);
     padding-bottom: 50px;
     &__main-title {
         color: rgb(255, 255, 255);
@@ -234,6 +234,12 @@
         width: 600px;
         height: 500px;
     }
+}
+
+.img-mini-top {
+    background-image: url(mini-star-top.svg);
+    background-repeat: no-repeat;
+    
 }
 
 .margin {
