@@ -18,16 +18,21 @@
     <header class="header center">
         <section class="header__content">
             <h1 class="header__title">Добро пожаловать <br> на мой сайт мини-игр</h1>
+            <img class="header__big-star" src="img-mob/Big-mob.png" alt="biggest">
+            <img class="header__mini-top-star" src="img-mob/mini-top-mob.png" alt="mini">
+            <img class="header__big-top-star" src="img-mob/big-top-mob.png" alt="big">
+            <img class="header__big-bottom-star" src="img-mob/big-bottom-mob.png" alt="big">
+            <img class="header__mini-bottom-star" src="img-mob/mini-bottom-mob.png" alt="mini">
             <h2 class="header__subtitle">Тебе предстоит пройти несколько увлекательных игр. <br> Если готов, нажимай
                 <b>«Поехали!»</b> и <b>приступай</b>.
             </h2>
             <div class="header__box">
-            <a class="header__link" href="#about-games">
-                <form>
-                    <button class="header__link-btn">Поехали!</button>
-                </form>
-            </a>
-        </div>
+                <a class="header__link" href="#about-games">
+                    <form>
+                        <button class="header__link-btn">Поехали!</button>
+                    </form>
+                </a>
+            </div>
         </section>
     </header>
     <div class="scroll-bar">
@@ -102,96 +107,93 @@
             </div>
         </div>
     </div>
-    <div class="img-mini-top">
-        <div class="img-big-top">
-            <div class="img-mini-bottom">
-                <div class="img-big-bottom">
-                    <section class="game-play center">
-                        <h2 class="game-play__title">Мини-игры</h2>
-                        <div class="game-play__flex">
-                            <article class="game-play__product">
-                                <a class="game-play__link" href="#">
-                                    <div class="game-play__box">
-                                        <h3 class="game-play__subtitle">Угадай число</h3>
-                                        <p class="game-play__text">Попробуй угадать случайное <br> число от 1 до 100.
-                                        </p>
-                                        <a class="game-play__link-btn" href="#">
-                                            <button class="game-play__btn">Играть!</button>
-                                        </a>
-                                    </div>
-                                    <img class="game-play__img" src="img/game1.png" alt="Game-1">
-                            </article>
-                            </a>
-                            <article class="game-play__product">
-                                <a class="game-play__link" href="#">
-                                    <img class="game-play__img" src="img/game2.png" alt="Game-2">
-                                    <div class="game-play__box">
-                                        <h3 class="game-play__subtitle">Простая <br> арифметика</h3>
-                                        <p class="game-play__text">Попробуй решить простые <br> арифметические задачи.</p>
-                                        <a class="game-play__link" href="#">
-                                            <button class="game-play__btn">Играть!</button>
-                                        </a>
-                                    </div>
-                            </article>
-                            </a>
-                            <article class="game-play__product">
-                                <a class="game-play__link" href="#">
-                                    <div class="game-play__box">
-                                        <h3 class="game-play__subtitle">Переверни текст</h3>
-                                        <p class="game-play__text">Попробуй ввести текст, который <br> будет перевернут.
-                                        </p>
-                                        <a class="game-play__link" href="#">
-                                            <button class="game-play__btn">Играть!</button>
-                                        </a>
-                                    </div>
-                                    <img class="game-play__img" src="img/game3.png" alt="Game-3">
-                            </article>
-                            </a>
-                            <article class="game-play__product">
-                                <a class="game-play__link" href="#">
-                                    <img class="game-play__img" src="img/game4.png" alt="Game-4">
-                                    <div class="game-play__box">
-                                        <h3 class="game-play__subtitle">Викторина</h3>
-                                        <p class="game-play__text">Отвечай на вопросы викторины <br> с вариантами
-                                            ответов.</p>
-                                        <a class="game-play__link" href="#">
-                                            <button class="game-play__btn">Играть!</button>
-                                        </a>
-                                    </div>
-                            </article>
-                            </a>
-                            <article class="game-play__product">
-                                <a class="game-play__link" href="#">
-                                    <div class="game-play__box">
-                                        <h3 class="game-play__subtitle">Камень, <br> ножницы, <br> бумага</h3>
-                                        <p class="game-play__text">Сыграй в популярную игру <br> против компьютера.</p>
-                                        <a class="game-play__link" href="#">
-                                            <button class="game-play__btn">Играть!</button>
-                                        </a>
-                                    </div>
-                                    <img class="game-play__img" src="img/game5.png" alt="Game-5">
-                            </article>
-                            </a>
-                            <article class="game-play__product margin">
-                                <a class="game-play__link" href="#">
-                                    <img class="game-play__img" src="img/game6.png" alt="Game-6">
-                                    <div class="game-play__box">
-                                        <h3 class="game-play__subtitle">Генератор <br> случайных <br> цветов</h3>
-                                        <p class="game-play__text">Игра, в которой при клике на кнопку <br> фон страницы
-                                            меняется на случайный.</p>
-                                        <a class="game-play__link" href="#">
-                                            <button class="game-play__btn">Играть!</button>
-                                        </a>
-                                    </div>
-                            </article>
+    <section class="game-play center">
+        <img class="game-play__big-top-star" src="big-star-top.svg" alt="star">
+        <img class="game-play__mini-top-star" src="mini-star-top.svg" alt="star">
+        <h2 class="game-play__title">Мини-игры</h2>
+        <div class="game-play__flex">
+            <article class="game-play__product binding-big-top">
+                <a class="game-play__link" href="#">
+                    <div class="game-play__box">
+                        <h3 class="game-play__subtitle">Угадай число</h3>
+                        <p class="game-play__text">Попробуй угадать случайное <br> число от 1 до 100.
+                        </p>
+                        <a class="game-play__link-btn" href="#">
+                            <button class="game-play__btn">Играть!</button>
+                        </a>
+                    </div>
+                    <img class="game-play__img" src="img/game1.png" alt="Game-1">
+                </a>
+                </article>
+                <article class="game-play__product">
+                    <a class="game-play__link" href="#">
+                        <img class="game-play__img" src="img/game2.png" alt="Game-2">
+                        <div class="game-play__box">
+                            <h3 class="game-play__subtitle">Простая арифметика</h3>
+                            <p class="game-play__text">Попробуй решить простые <br> арифметические задачи.</p>
+                            <a class="game-play__link-btn" href="#">
+                                <button class="game-play__btn">Играть!</button>
                             </a>
                         </div>
-                    </section>
-                </div>
-            </div>
+                        
+                    </a>
+                    </article>
+            <article class="game-play__product">
+                <a class="game-play__link" href="#">
+                    <div class="game-play__box">
+                        <h3 class="game-play__subtitle">Переверни текст</h3>
+                        <p class="game-play__text">Попробуй ввести текст, который <br> будет перевернут.
+                        </p>
+                        <a class="game-play__link-btn" href="#">
+                            <button class="game-play__btn">Играть!</button>
+                        </a>
+                    </div>
+                    <img class="game-play__img" src="img/game3.png" alt="Game-3">
+            </article>
+            </a>
+            <article class="game-play__product">
+                <a class="game-play__link" href="#">
+                    <img class="game-play__img" src="img/game4.png" alt="Game-4">
+                    <div class="game-play__box">
+                        <h3 class="game-play__subtitle">Викторина</h3>
+                        <p class="game-play__text">Отвечай на вопросы викторины <br> с вариантами ответов.
+                        </p>
+                        <a class="game-play__link-btn" href="#">
+                            <button class="game-play__btn">Играть!</button>
+                        </a>
+                    </div>
+                </a>
+                </article>
+            <article class="game-play__product">
+                <a class="game-play__link" href="#">
+                    <div class="game-play__box">
+                        <h3 class="game-play__subtitle">Камень, <br> ножницы, <br> бумага</h3>
+                        <p class="game-play__text">Сыграй в популярную игру <br> против компьютера.</p>
+                        <a class="game-play__link-btn" href="#">
+                            <button class="game-play__btn">Играть!</button>
+                        </a>
+                    </div>
+                    <img class="game-play__img" src="img/game5.png" alt="Game-5">
+            </article>
+            </a>
+            <article class="game-play__product margin">
+                <a class="game-play__link" href="#">
+                    <img class="game-play__img" src="img/game6.png" alt="Game-6">
+                    <div class="game-play__box">
+                        <h3 class="game-play__subtitle">Генератор <br> случайных <br> цветов</h3>
+                        <p class="game-play__text">Игра, в которой при клике на кнопку <br> фон страницы
+                            меняется на случайный.</p>
+                        <a class="game-play__link-btn" href="#">
+                            <button class="game-play__btn">Играть!</button>
+                        </a>
+                    </div>
+            </article>
+            </a>
         </div>
-    </div>
+    </section>
     <footer class="footer">
+        <img class="footer__mini-bottom-star" src="mini-star-bottom.svg" alt="star">
+        <img class="footer__big-bottom-star" src="big-star-bottom.svg" alt="star">
         <h2 class="footer__text">Все права защищены.</h2>
     </footer>
 

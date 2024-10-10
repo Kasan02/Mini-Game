@@ -4,11 +4,24 @@
         padding-right: 16px;
     }
 
+    .header {
+        background-image: none;
+        height: 649px;
+    }
+
     .header__title {
         font-size: 40px;
         font-weight: 700;
         line-height: 49px;
         text-align: center;
+        position: relative; 
+        padding-top: 147px; 
+    }
+
+    .header__big-star {
+        position: absolute;
+        top: -100.43px;
+        right: -90px;
     }
 
     .header__subtitle {
@@ -17,6 +30,19 @@
         line-height: 20px;
         text-align: center;
         padding-bottom: 36px;
+        position: relative;
+    }
+
+    .header__mini-top-star {
+        position: absolute;
+        top: 64px;
+        left: 91px;
+    }
+
+    .header__big-top-star {
+        position: absolute;
+        top: 97px;
+        left: 37px;
     }
 
     .header__box {
@@ -26,16 +52,56 @@
 
     .header__link-btn {
         font-size: 16px;
+        position: relative;
+    }
+
+    .header__mini-bottom-star {
+        position: absolute;
+        bottom: 125px;
+        right: 86px;
+    }
+
+    .header__link-btn {
+        height: 55px;
+    }
+
+    .scroll-bar {
+    height: 51px;
+    position: relative;
+    }
+
+    .header__big-bottom-star {
+        position: absolute;
+        bottom: 79px;
+        right: 34px;
     }
 
     .info {
         display: none;
     }
 
+    .game-play {
+        padding-bottom: 49px;
+    }
+
+    .game-play__big-top-star {
+        display: none;
+    }
+
+    .game-play__mini-top-star {
+        display: none;
+    }
+
     .game-play__title {
         font-size: 40px;
         font-weight: 700;
-        line-height: 49px;
+        line-height: 48px;
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    .game-play__flex {
+        row-gap: 24px;
     }
 
     .game-play__subtitle {
@@ -49,28 +115,42 @@
         font-size: 16px;
         font-weight: 400;
         line-height: 20px;
-    }
-
-    .game-play__flex {
-        display: block;
+        padding-top: 16px;
+        padding-bottom: 32px;
+        max-width: 300px;
     }
 
     .game-play__product {
-        display: block;
+        flex-direction: column;
+        max-height: 100%;
     }
 
     .game-play__img {
         height: 285px;
         width: 343px;
-        order: 1;
+        max-width: 100%;
     }
     .game-play__box {
-        order: 2;
+        height: 243.7px;
         padding: 29.04px 29.04px 32.67px 29.04px;
-        width: 323px;
+        order: 2;
+        max-width: 343px;
+    }
+
+    .game-play__btn {
+        width: 285px;
+        height: 55px;
     }
 
     .margin {
+        display: none;
+    }
+
+    .footer__big-bottom-star {
+        display: none;
+    }
+
+    .footer__mini-bottom-star {
         display: none;
     }
 
