@@ -1,7 +1,7 @@
 @media (max-width: 767px) {
     .center {
-        padding-left: 16px;
-        padding-right: 16px;
+        padding-left: calc(50% - 172px);
+        padding-right: calc(50% - 172px);
     }
 
     .header {
@@ -125,16 +125,20 @@
         max-height: 100%;
     }
 
+    .game-play__link {
+        height: auto;
+    }
+
     .game-play__img {
         height: 285px;
-        width: 343px;
+        width: 344px;
         max-width: 100%;
     }
     .game-play__box {
-        height: 243.7px;
+        height: 100%;
         padding: 29.04px 29.04px 32.67px 29.04px;
         order: 2;
-        max-width: 343px;
+        width: auto;
     }
 
     .game-play__btn {
@@ -143,7 +147,7 @@
     }
 
     .margin {
-        display: none;
+        margin: 0;
     }
 
     .footer__big-bottom-star {
