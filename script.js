@@ -4,7 +4,7 @@ let productPrice = Number(alert('20'));
 // Задание 2
 const iphone = Number(alert('2007'));
 // Задание 3
-const name = Text(alert('Брендан'));
+const name = (alert('Брендан'));
 // Задание 4
 let one = 10;
 let two = 2;
@@ -19,20 +19,20 @@ alert(two ** 5);
 alert(tree % two);
 // Задание 7
 let num = 1;
-num += 5;
-num -= 3;
-num *= 7;
-num /= 3;
-num++;
-num--;
+alert(num += 5);
+alert(num -= 3);
+alert(num *= 7);
+alert(num /= 3);
+alert(num++);
+alert(num--);
 alert(num);
 // Задание 8
 let age = Number(prompt("Сколько вам лет?"));
 let result = alert(age);
 // Задание 9
 let user = {
-    name: 'Max' = Text,
-    age: 28 = Number, 
+    name: 'Max',
+    age: 28, 
     isAdmin: Max02 = true,
 }
 // Задание 10
