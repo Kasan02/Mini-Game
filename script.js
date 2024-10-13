@@ -19,25 +19,25 @@ alert(two ** 5);
 alert(tree % two);
 // Задание 7
 let num = 1;
-alert(num += 5);
-alert(num -= 3);
-alert(num *= 7);
-alert(num /= 3);
-alert(num++);
-alert(num--);
+num += 5;
+num -= 3;
+num *= 7;
+num /= 3;
+num++;
+num--;
 alert(num);
 // Задание 8
 let age = Number(prompt("Сколько вам лет?"));
 let result = alert(age);
 // Задание 9
 let user = {
-    name: 'Max',
-    age: '28',
-    isAdmin: 'Max02'
+    name: 'Max' = Text,
+    age: 28 = Number, 
+    isAdmin: Max02 = true,
 }
 // Задание 10
-let names = prompt("Сколько вам лет?");
-alert(age);
+let names = prompt("Как вас зовут?");
+alert(`Привет, ${names}!`);
 
 
 
