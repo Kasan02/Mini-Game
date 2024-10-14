@@ -196,10 +196,6 @@
         flex-direction: column;
         row-gap: 32px;
     }
-    &__link {
-        text-decoration: none;
-        color: rgb(32, 32, 39); 
-    }
     &__product {
         display: flex;
         background-color: rgb(255, 255, 255);
@@ -237,7 +233,6 @@
         position: absolute;
 
     }
-
     &__btn {
         width: 247px;
         height: 66px;
@@ -270,13 +265,14 @@
 
 .game-play__big-top-star {
     position: absolute;
-    right: 470px;
-    top: 2485px;
+    right: calc(100vh - 630px);
+    top: calc(2485px);
 }
 
 .game-play__mini-top-star {
-    right: 540px;
-    top: 2450px;
+    position: absolute;
+    right: calc(100vh - 532px);
+    top: calc(2450px);
 }
 
 .img-mini-top {
@@ -303,16 +299,20 @@
     }
 }
 
+.footer {
+    position: relative;
+}
+
 .footer__mini-bottom-star {
     position: absolute;
-    right: 560px;
-    bottom: 195px;
+    right: calc(100vh - 532px);
+    bottom: calc(180px);
 }
 
 .footer__big-bottom-star {
     position: absolute;
-    right: 462px;
-    bottom: 220px;
+    right: calc(100vh - 630px);
+    bottom: calc(210px);
 }
 
 
