@@ -35,7 +35,7 @@
 .header__link {
   scroll-behavior: smooth;
 }
-.header__link-btn {
+.header__btn {
   width: 247px;
   height: 66px;
   box-sizing: border-box;
@@ -51,7 +51,7 @@
   text-align: center;
   transition: all 0.5s;
 }
-.header__link-btn:hover {
+.header__btn:hover {
   background-color: rgb(255, 255, 255);
   color: rgb(32, 32, 39);
   cursor: pointer;
