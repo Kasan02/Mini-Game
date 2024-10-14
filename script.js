@@ -1,3 +1,4 @@
+// Hw2
 // Задание 1
 // let product = Number(alert('10'));
 // let productPrice = Number(alert('20'));
@@ -33,7 +34,7 @@
 // let user = {
 //     name: 'Max',
 //     age: 28, 
-//     isAdmin: Max02 = true,
+//     isAdmin: true,
 // }
 // Задание 10
 // let names = prompt("Как вас зовут?");
@@ -65,9 +66,9 @@
 // Задание 4
 // let f = '2';
 // let g = '3';
-// alert(f + g);
+// alert(Number(f) + Number(g));
 // Задание 5
-let number = Number(prompt('Введите номер месяца'));
+let monthNumber = Number(prompt('Введите номер месяца'));
 
 switch (monthNumber = 12) {
     case 1:

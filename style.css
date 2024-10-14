@@ -198,11 +198,6 @@
   flex-direction: column;
   row-gap: 32px;
 }
-.game-play__link {
-  text-decoration: none;
-  color: rgb(32, 32, 39);
-  height: 500px;
-}
 .game-play__product {
   display: flex;
   background-color: rgb(255, 255, 255);
@@ -269,12 +264,13 @@
 
 .game-play__big-top-star {
   position: absolute;
-  right: 470px;
+  right: calc(100vh - 630px);
   top: 2485px;
 }
 
 .game-play__mini-top-star {
-  right: 540px;
+  position: absolute;
+  right: calc(100vh - 532px);
   top: 2450px;
 }
 
@@ -305,20 +301,16 @@
   position: relative;
 }
 
-.footer__box-star {
-  background-image: url(mini-star-bottom.svg), url(big-star-bottom.svg);
-}
-
 .footer__mini-bottom-star {
   position: absolute;
-  right: 560px;
-  bottom: 195px;
+  right: calc(100vh - 532px);
+  bottom: 180px;
 }
 
 .footer__big-bottom-star {
   position: absolute;
-  right: 462px;
-  bottom: 220px;
+  right: calc(100vh - 630px);
+  bottom: 210px;
 }
 
 @media (max-width: 767px) {
