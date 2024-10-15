@@ -31,9 +31,6 @@
         line-height: 32px;
         padding-bottom: 48px;
     }
-    &__link {
-        scroll-behavior: smooth;
-    }
     &__link-btn {
         width: 247px;
         height: 66px;
@@ -46,9 +43,11 @@
         font-size: 24px;
         font-weight: 600;
         line-height: 141.69%;
-        letter-spacing: 0%;
         text-align: center;
         transition: all 0.5s;
+        padding: 15px 20px;
+        text-decoration: none;
+        display: inline-block;
     }
     &__link-btn:hover {
         background-color: rgb(255, 255, 255);
@@ -183,6 +182,17 @@
 .game-play {
     background: rgb(32, 32, 39);
     border-top: 0.5px solid rgba(108, 106, 106, 0.803);
+    position: relative;
+    &__big-top-star {
+        position: absolute;
+        right: calc(100vh - 630px);
+        top: calc(126px);
+    }
+    &__mini-top-star {
+        position: absolute;
+        right: calc(100vh - 532px);
+        top: calc(93px);
+    }
     &__title {
         font-size: 64px;
         font-weight: 700;
@@ -216,10 +226,6 @@
         font-weight: 700;
         line-height: 59px;
         width: 504px;
-        position: relative;
-    }
-    &__mini-top-star {
-        position: absolute;
     }
     &__text {
         font-size: 24px;
@@ -227,11 +233,6 @@
         line-height: 32px;
         padding-top: 24px;
         padding-bottom: 36px;
-        position: relative;
-    }
-    &__mini-bottom-star {
-        position: absolute;
-
     }
     &__btn {
         width: 247px;
@@ -259,28 +260,6 @@
     }
 }
 
-.binding-big-top {
-    position: relative;
-}
-
-.game-play__big-top-star {
-    position: absolute;
-    right: calc(100vh - 630px);
-    top: calc(2485px);
-}
-
-.game-play__mini-top-star {
-    position: absolute;
-    right: calc(100vh - 532px);
-    top: calc(2450px);
-}
-
-.img-mini-top {
-    background-image: url(mini-star-top.svg);
-    background-repeat: no-repeat;
-    
-}
-
 .margin {
     margin-bottom: 144px;
 }
@@ -289,6 +268,16 @@
     height: 150px;
     background: rgb(189, 237, 53);
     position: relative;
+    &__mini-bottom-star {
+        position: absolute;
+        right: calc(100vh - 532px);
+        bottom: calc(180px);
+    }
+    &__big-bottom-star {
+        position: absolute;
+        right: calc(100vh - 630px);
+        bottom: calc(210px);
+    }
     &__text {
         font-size: 24px;
         font-weight: 600;
@@ -298,24 +287,5 @@
         padding-top: 61px;
     }
 }
-
-.footer {
-    position: relative;
-}
-
-.footer__mini-bottom-star {
-    position: absolute;
-    right: calc(100vh - 532px);
-    bottom: calc(180px);
-}
-
-.footer__big-bottom-star {
-    position: absolute;
-    right: calc(100vh - 630px);
-    bottom: calc(210px);
-}
-
-
-
 
 @import 'mobile'

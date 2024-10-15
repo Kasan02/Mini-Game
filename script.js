@@ -42,7 +42,7 @@
 
 // Hw3
 // Задание 1
-// let password = String(prompt('Введите пароль'))
+// let password = prompt('Введите пароль');
 // if (password === '0202') {
 //     console.log('Пароль введён верно');
 // } else {
@@ -71,42 +71,26 @@
 let monthNumber = Number(prompt('Введите номер месяца'));
 
 switch (monthNumber = 12) {
+    case 12:
     case 1:
-        console.log('Зима');
-        break;
     case 2:
         console.log('Зима');
-        break;
+    break;
     case 3:
-        console.log('Зима');
-        break;
     case 4:
-        console.log('Весна');
-        break;
     case 5:
         console.log('Весна');
-        break;
+    break;
     case 6:
-        console.log('Весна');
-        break;
     case 7:
-        console.log('Лето');
-        break;
     case 8:
         console.log('Лето');
-        break;
+    break;
     case 9:
-        console.log('Лето');
-        break;
     case 10:
-        console.log('Осень');
-        break;
     case 11:
         console.log('Осень');
-        break;
-    case 12:
-        console.log('Осень');
-        break;
+    break;
     default:
         console.log('Ошибка!')
 }
