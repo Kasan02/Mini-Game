@@ -341,8 +341,13 @@
     bottom: 125px;
     right: 86px;
   }
+  .header__link-box {
+    display: flex;
+    justify-content: center;
+  }
   .header__link-btn {
     height: 55px;
+    width: 285px;
   }
   .scroll-bar {
     height: 51px;
