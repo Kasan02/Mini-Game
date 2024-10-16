@@ -40,6 +40,7 @@
 // let names = prompt("Как вас зовут?");
 // alert(`Привет, ${names}!`);
 
+
 // Hw3
 // Задание 1
 // let password = prompt('Введите пароль');
@@ -94,6 +95,8 @@ switch (monthNumber = 12) {
     default:
         console.log('Ошибка!')
 }
+
+
 
 
 
