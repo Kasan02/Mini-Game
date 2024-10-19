@@ -143,6 +143,14 @@
     }
 }
 
+.games-box-tablet {
+    display: none;
+}
+
+.info-tablet {
+    display: none;
+}
+
 .header__big-star {
     display: none;
 }
@@ -288,4 +296,5 @@
     }
 }
 
-@import 'mobile'
+@import 'mobile';
+@import 'tablet'
