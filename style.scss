@@ -260,24 +260,6 @@
     }
 }
 
-.game-play__big-top-star {
-    position: absolute;
-    right: calc(100vh - 630px);
-    top: calc(2485px);
-}
-
-.game-play__mini-top-star {
-    position: absolute;
-    right: calc(100vh - 532px);
-    top: calc(2450px);
-}
-
-.img-mini-top {
-    background-image: url(mini-star-top.svg);
-    background-repeat: no-repeat;
-    
-}
-
 .margin {
     margin-bottom: 144px;
 }
@@ -304,22 +286,6 @@
         font-family: "Montserrat", sans-serif;
         padding-top: 61px;
     }
-}
-
-.footer {
-    position: relative;
-}
-
-.footer__mini-bottom-star {
-    position: absolute;
-    right: calc(100vh - 532px);
-    bottom: calc(180px);
-}
-
-.footer__big-bottom-star {
-    position: absolute;
-    right: calc(100vh - 630px);
-    bottom: calc(210px);
 }
 
 @import 'mobile'
