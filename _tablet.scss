@@ -16,9 +16,29 @@
 }
 
     .header__link-btn {
+        display: none;
+        
+}
+
+.header__link-btn-tablet {
+        display: block;
+        box-sizing: border-box;
+        border: 1px solid rgb(32, 32, 39);
+        border-radius: 60px;
+        background: rgb(32, 32, 39);
+        color: rgb(255, 255, 255);
+        font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 141.69%;
+        text-align: center;
+        transition: all 0.5s;
+        text-decoration: none;
+        display: inline-block;
         width: 330px;
         font-size: 32px;
         padding: 9px 20px;
+        height: 66px;
 }
 
     .info {
@@ -100,8 +120,11 @@
 
 .game-play__btn-box {
     display: flex;
-    width: 350px;
-    justify-content: center;
+    width: 365px;
+}
+
+.game-play__btn {
+    width: 354px;
 }
 
 .game-play__flex {

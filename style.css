@@ -34,7 +34,6 @@
 }
 .header__link-btn {
   width: 247px;
-  height: 66px;
   box-sizing: border-box;
   border: 1px solid rgb(32, 32, 39);
   border-radius: 60px;
@@ -54,6 +53,14 @@
   background-color: rgb(255, 255, 255);
   color: rgb(32, 32, 39);
   cursor: pointer;
+}
+
+.header__link-btn-tablet {
+  display: none;
+}
+
+.header__link-btn-mobile {
+  display: none;
 }
 
 .scroll-bar {
@@ -296,10 +303,10 @@
   padding-top: 61px;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 375px) and (max-width: 767px) {
   .center {
-    padding-left: calc(50% - 160px);
-    padding-right: calc(50% - 160px);
+    padding-left: calc(50% - 187px);
+    padding-right: calc(50% - 187px);
   }
   .header {
     background-image: none;
@@ -341,8 +348,31 @@
     justify-content: center;
   }
   .header__link-btn {
-    font-size: 16px;
+    display: none;
+  }
+  .header__link-btn-mobile {
     position: relative;
+    height: 55px;
+    width: 285px;
+    box-sizing: border-box;
+    border: 1px solid rgb(32, 32, 39);
+    border-radius: 60px;
+    background: rgb(32, 32, 39);
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 141.69%;
+    text-align: center;
+    transition: all 0.5s;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .header__link-btn-mobile:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(32, 32, 39);
+    cursor: pointer;
   }
   .header__mini-bottom-star {
     position: absolute;
@@ -352,10 +382,6 @@
   .header__link-box {
     display: flex;
     justify-content: center;
-  }
-  .header__link-btn {
-    height: 55px;
-    width: 285px;
   }
   .scroll-bar {
     height: 51px;
@@ -371,6 +397,9 @@
   }
   .game-play {
     padding-bottom: 49px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .game-play__big-top-star {
     display: none;
@@ -384,6 +413,7 @@
     line-height: 48px;
     padding-top: 48px;
     padding-bottom: 48px;
+    padding-right: 96px;
   }
   .game-play__flex {
     row-gap: 24px;
@@ -405,6 +435,7 @@
   .game-play__product {
     flex-direction: column;
     max-height: 100%;
+    width: 343px;
   }
   .game-play__link {
     height: auto;
@@ -449,9 +480,27 @@
     justify-content: center;
   }
   .header__link-btn {
+    display: none;
+  }
+  .header__link-btn-tablet {
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid rgb(32, 32, 39);
+    border-radius: 60px;
+    background: rgb(32, 32, 39);
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 141.69%;
+    text-align: center;
+    transition: all 0.5s;
+    text-decoration: none;
+    display: inline-block;
     width: 330px;
     font-size: 32px;
     padding: 9px 20px;
+    height: 66px;
   }
   .info {
     height: 3486px;
@@ -519,8 +568,10 @@
   }
   .game-play__btn-box {
     display: flex;
-    width: 350px;
-    justify-content: center;
+    width: 365px;
+  }
+  .game-play__btn {
+    width: 354px;
   }
   .game-play__flex {
     row-gap: 24px;

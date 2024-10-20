@@ -1,7 +1,7 @@
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 375px) and (max-width: 767px) {
     .center {
-        padding-left: calc(50% - 160px);
-        padding-right: calc(50% - 160px);
+        padding-left: calc(50% - 187px);
+        padding-right: calc(50% - 187px);
     }
 
     .header {
@@ -51,9 +51,34 @@
     }
 
     .header__link-btn {
-        font-size: 16px;
-        position: relative;
+        display: none;
     }
+
+    .header__link-btn-mobile {
+        position: relative;
+        height: 55px;
+        width: 285px;
+        box-sizing: border-box;
+        border: 1px solid rgb(32, 32, 39);
+        border-radius: 60px;
+        background: rgb(32, 32, 39);
+        color: rgb(255, 255, 255);
+        font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 141.69%;
+        text-align: center;
+        transition: all 0.5s;
+        padding: 10px 20px;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .header__link-btn-mobile:hover {
+        background-color: rgb(255, 255, 255);
+        color: rgb(32, 32, 39);
+        cursor: pointer;
+      }
 
     .header__mini-bottom-star {
         position: absolute;
@@ -64,11 +89,6 @@
     .header__link-box {
         display: flex;
         justify-content: center;
-    }
-
-    .header__link-btn {
-        height: 55px;
-        width: 285px;
     }
 
     .scroll-bar {
@@ -88,6 +108,9 @@
 
     .game-play {
         padding-bottom: 49px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .game-play__big-top-star {
@@ -104,6 +127,7 @@
         line-height: 48px;
         padding-top: 48px;
         padding-bottom: 48px;
+        padding-right: 96px;
     }
 
     .game-play__flex {
@@ -129,6 +153,7 @@
     .game-play__product {
         flex-direction: column;
         max-height: 100%;
+        width: 343px;
     }
 
     .game-play__link {
