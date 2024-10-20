@@ -296,10 +296,10 @@
   padding-top: 61px;
 }
 
-@media (min-width: 375px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .center {
-    padding-left: calc(50% - 172px);
-    padding-right: calc(50% - 172px);
+    padding-left: calc(50% - 160px);
+    padding-right: calc(50% - 160px);
   }
   .header {
     background-image: none;
