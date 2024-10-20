@@ -1,4 +1,4 @@
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     .center {
         padding-left: calc(50% - 384px);
         padding-right: calc(50% - 384px);
@@ -83,7 +83,7 @@
 }
 
     .game-play__box {
-        width: 600px;
+        width: 354px;
         height: 100%;
         order: 2;
 }
