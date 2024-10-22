@@ -153,6 +153,66 @@
 //     console.log(`Сегодня пятница, ${i}-е число. Необходимо подготовить отчет.`);   
 // }
 
+// Hw5
+
+// Задание 1
+// function max(a, b) {
+//     if (a > b) {
+//         return a;
+//     } else if (a === b) {
+//         return a;
+//     } else {
+//         return b;
+//     }
+// }
+// console.log(max(6, 6));
+
+// Задание 2
+
+// function parity(number) {
+//     if (number % 2 === 0) {
+//       return 'Число чётное';
+//     } else {
+//       return 'Число нечётное';
+//     }
+//   }
+//   console.log(parity(1));
+//   console.log(parity(2));
+
+// Задание 3-1
+
+// function funcConsole(num) {
+//     if (num ** 2) {
+//     console.log(funcConsole(3)); 
+// }
+// }
+
+// Задание 3-2
+
+// function funcReturn(num) {
+//     return num ** 2;
+//   }
+
+//   let res = funcReturn(5);
+//   console.log(res);
+
+// Задание 4 
+
+// function funcQuestion(c) {
+//     if (c < 0) {
+//         alert('Вы ввели неправильное значение');
+//     } else if (c >= 0 && c <= 12) {
+//         alert('Привет, друг!')
+//     } else if (c >= 13){
+//         alert('Добро пожаловать!');
+//     }
+// }
+
+// Задание 5
+
+
+
+
 
 
 
