@@ -26,7 +26,11 @@
             <h2 class="header__subtitle">Тебе предстоит пройти несколько увлекательных игр. <br> Если готов, нажимай
                 <b>«Поехали!»</b> и <b>приступай</b>.
             </h2>
-            <a href="#about-games" class="header__link-btn">Поехали!</a>
+            <div class="header__link-box">
+                <a href="#about-games" class="header__link-btn">Поехали!</a>
+                <a href="#about-games-tablet" class="header__link-btn-tablet">Поехали!</a>
+                <a href="#about-games-mobile" class="header__link-btn-mobile">Поехали!</a>
+            </div>
         </section>
     </header>
     <div class="scroll-bar"></div>
@@ -47,7 +51,7 @@
                         </article>
                     </a>
                     <a class="games-box__link" href="#game-for">
-                        <article class="games-box__product big-big">
+                        <article class="games-box__product big-big order-for">
                             <img class="games-box__img" src="img/img4.png" alt="img">
                             <div class="games-box__section">
                                 <p class="games-box__title">Игра № 4</p>
@@ -76,9 +80,9 @@
                         </article>
                     </a>
                 </div>
-                <div class="games-box__column">
+                <div class="games-box__column row-laptop">
                     <a class="games-box__link" href="#game-tree">
-                        <article class="games-box__product small">
+                        <article class="games-box__product small alignment-laptop">
                             <img class="games-box__img" src="img/img3.png" alt="img">
                             <div class="games-box__section">
                                 <p class="games-box__title">Игра № 3</p>
@@ -86,7 +90,7 @@
                             </div>
                         </article>
                     </a>
-                    <a class="games-box__link" href="#game-six">
+                    <a class="games-box__link padding-laptop" href="#game-six">
                         <article class="games-box__product big-big">
                             <img class="games-box__img" src="img/img6.png" alt="img">
                             <div class="games-box__section">
@@ -99,82 +103,84 @@
             </div>
         </div>
     </div>
-    <section class="game-play center">
+
+    <div class="info-tablet center" id="about-games-tablet">
+        <h2 class="info__main-title">Об играх</h2>
+        <h3 class="info__main-subtitle">В моей коллекции представлено 6 игр на разные темы. <br>Игры несложные — в них
+            может поиграть каждый. <br> Все игры доступны для пользования.</h3>
+        <div class="games-box-tablet center">
+            <div class="games-box__grid">
+                <div class="flex-box">
+                    <div class="games-box__column">
+                        <a class="games-box__link" href="#game-one">
+                            <article class="games-box__product small">
+                                <img class="games-box__img" src="img/img1.png" alt="img">
+                                <div class="games-box__section">
+                                    <p class="games-box__title">Игра № 1</p>
+                                    <h3 class="games-box__subtitle">Угадай число</h3>
+                                </div>
+                            </article>
+                        </a>
+                        <a class="games-box__link" href="#game-two">
+                            <article class="games-box__product big">
+                                <img class="games-box__img" src="img/img2.png" alt="img">
+                                <div class="games-box__section">
+                                    <p class="games-box__title">Игра № 2</p>
+                                    <h3 class="games-box__subtitle">Простая <br> арифметика</h3>
+                                </div>
+                            </article>
+                        </a>
+                    </div>
+                    <div class="games-box__column">
+                        <a class="games-box__link" href="#game-tree">
+                            <article class="games-box__product small">
+                                <img class="games-box__img" src="img/img3.png" alt="img">
+                                <div class="games-box__section">
+                                    <p class="games-box__title">Игра № 3</p>
+                                    <h3 class="games-box__subtitle">Переверни текст</h3>
+                                </div>
+                            </article>
+                        </a>
+                        <a class="games-box__link" href="#game-for">
+                            <article class="games-box__product big-big">
+                                <img class="games-box__img" src="img/img4.png" alt="img">
+                                <div class="games-box__section">
+                                    <p class="games-box__title">Игра № 4</p>
+                                    <h3 class="games-box__subtitle">Камень,<br>ножницы,<br>бумага</h3>
+                                </div>
+                            </article>
+                        </a>
+                    </div>
+                    <div class="games-box__column">
+                        <a class="games-box__link" href="#game-five">
+                            <article class="games-box__product big">
+                                <img class="games-box__img" src="img/img5.png" alt="img">
+                                <div class="games-box__section">
+                                    <p class="games-box__title">Игра № 5</p>
+                                    <h3 class="games-box__subtitle">Простая <br> викторина</h3>
+                                </div>
+                            </article>
+                        </a>
+                        <a class="games-box__link" href="#game-six">
+                            <article class="games-box__product big-big">
+                                <img class="games-box__img" src="img/img6.png" alt="img">
+                                <div class="games-box__section">
+                                    <p class="games-box__title">Игра № 6</p>
+                                    <h3 class="games-box__subtitle">Генератор <br> случайных <br> цветов</h3>
+                                </div>
+                            </article>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="game-play center" id="about-games-mobile">
         <img class="game-play__big-top-star" src="big-star-top.svg" alt="star">
         <img class="game-play__mini-top-star" src="mini-star-top.svg" alt="star">
         <h2 class="game-play__title">Мини-игры</h2>
         <div class="game-play__flex">
-
-                <article class="game-play__product binding-big-top" id="game-one">
-                    <div class="game-play__box">
-                        <h3 class="game-play__subtitle">Угадай число</h3>
-                        <p class="game-play__text">Попробуй угадать случайное <br> число от 1 до 100.
-                        </p>
-                        <div class="game-play__btn-box">
-                            <button class="game-play__btn">Играть!</button>
-                        </div>
-                    </div>
-                    <img class="game-play__img" src="img/game1.png" alt="Game-1">
-                </article>
-                <article class="game-play__product" id="game-two">
-                    <img class="game-play__img" src="img/game2.png" alt="Game-2">
-                    <div class="game-play__box">
-                        <h3 class="game-play__subtitle">Простая арифметика</h3>
-                        <p class="game-play__text">Попробуй решить простые <br> арифметические задачи.</p>
-                        <div class="game-play__btn-box">
-                            <button class="game-play__btn">Играть!</button>
-                        </div>
-                    </div>
-                </article>
-                <article class="game-play__product" id="game-tree">
-                    <div class="game-play__box">
-                        <h3 class="game-play__subtitle">Переверни текст</h3>
-                        <p class="game-play__text">Попробуй ввести текст, который <br> будет перевернут.
-                        </p>
-                        <div class="game-play__btn-box">
-                            <button class="game-play__btn">Играть!</button>
-                        </div>
-                    </div>
-                    <img class="game-play__img" src="img/game3.png" alt="Game-3">
-                </article>
-                <article class="game-play__product" id="game-five">
-                    <img class="game-play__img" src="img/game4.png" alt="Game-4">
-                    <div class="game-play__box">
-                        <h3 class="game-play__subtitle">Викторина</h3>
-                        <p class="game-play__text">Отвечай на вопросы викторины <br> с вариантами ответов.
-                        </p>
-                        <div class="game-play__btn-box">
-                            <button class="game-play__btn">Играть!</button>
-                        </div>
-                    </div>
-                </article>
-                <article class="game-play__product" id="game-for">
-                    <div class="game-play__box">
-                        <h3 class="game-play__subtitle">Камень, <br> ножницы, <br> бумага</h3>
-                        <p class="game-play__text">Сыграй в популярную игру <br> против компьютера.</p>
-                        <div class="game-play__btn-box">
-                            <button class="game-play__btn">Играть!</button>
-                        </div>
-                    </div>
-                    <img class="game-play__img" src="img/game5.png" alt="Game-5">
-                </article>
-                <article class="game-play__product margin" id="game-six">
-                    <img class="game-play__img" src="img/game6.png" alt="Game-6">
-                    <div class="game-play__box">
-                        <h3 class="game-play__subtitle">Генератор <br> случайных <br> цветов</h3>
-                        <p class="game-play__text">Игра, в которой при клике на кнопку <br> фон страницы
-                            меняется на случайный.</p>
-                        <div class="game-play__btn-box">
-                            <button class="game-play__btn">Играть!</button>
-                        </div>
-                    </div>
-                </article>
-        </div>
-    </section>
-    <footer class="footer">
-            <img class="footer__mini-bottom-star" src="mini-star-bottom.svg" alt="star">
-            <img class="footer__big-bottom-star" src="big-star-bottom.svg" alt="star">
-
             <article class="game-play__product binding-big-top" id="game-one">
                 <div class="game-play__box">
                     <h3 class="game-play__subtitle">Угадай число</h3>
@@ -232,7 +238,7 @@
                 <img class="game-play__img" src="img/game6.png" alt="Game-6">
                 <div class="game-play__box">
                     <h3 class="game-play__subtitle">Генератор <br> случайных <br> цветов</h3>
-                    <p class="game-play__text">Игра, в которой при клике на кнопку <br> фон страницы
+                    <p class="game-play__text width-laptop">Игра, в которой при клике на кнопку <br> фон страницы
                         меняется на случайный.</p>
                     <div class="game-play__btn-box">
                         <button class="game-play__btn">Играть!</button>
@@ -244,8 +250,6 @@
     <footer class="footer">
         <img class="footer__mini-bottom-star" src="mini-star-bottom.svg" alt="star">
         <img class="footer__big-bottom-star" src="big-star-bottom.svg" alt="star">
-        </div>
-
         <h2 class="footer__text">Все права защищены.</h2>
     </footer>
 </body>
