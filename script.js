@@ -180,12 +180,10 @@
 //   console.log(parity(2));
 
 // Задание 3-1
-
-// function funcConsole(num) {
-//     if (num ** 2) {
-//     console.log(funcConsole(3)); 
+// const sqr = (x) => {
+//     return x ** 2;
 // }
-// }
+// console.log(sqr(5)); 
 
 // Задание 3-2
 
@@ -197,18 +195,48 @@
 //   console.log(res);
 
 // Задание 4 
-
-// function funcQuestion(c) {
-//     if (c < 0) {
+// const userNumber = prompt('Введите ваше число');
+// function funcQuestion(userNumber) {
+//     if (userNumber < 0) {
 //         alert('Вы ввели неправильное значение');
-//     } else if (c >= 0 && c <= 12) {
-//         alert('Привет, друг!')
-//     } else if (c >= 13){
+//     } else if (userNumber >= 0 && userNumber <= 12) {
+//         alert('Привет, друг!');
+//     } else if (userNumber >= 13){
 //         alert('Добро пожаловать!');
+//     } else {
+//         alert('До свидания')
 //     }
 // }
 
 // Задание 5
+
+// function checkMult() {
+//     }let a = prompt('Введите 1 число');
+//     let b = prompt('Введите 2 число');
+//     if (isNaN(a) || isNaN(b)) {
+//         console.log('Одно или оба значения не являются числом');
+//     } else {
+//         console.log(`Произведение чисел ${Number(a) * Number(b)}`);
+//     }
+
+// Задание 6
+
+// function checkConstruction() {
+//     }let k = prompt('Введите ваше число');
+//     let s = (k * k);
+//     if (isNaN(k) || isNaN(s)) {
+//         console.log('Переданный параметр не является числом');
+//     } else {
+//         console.log(`k в кубе равен ${Number(k) * Number(s)}`);
+//     }
+
+// Задание 7
+
+function circle() {
+    }let circle1 = radius
+
+
+
 
 
 
