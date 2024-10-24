@@ -1,10 +1,10 @@
 const question = Number(prompt('Угадайте число от 1 до 100'));
-let randomInt = 40;
+let randomNumber = 40;
 
 function gameOne(question) {  
     if (isNaN(question)) {
-      return('Введено не число, повторите снова.');
-    } else if (question === randomInt) {
+      return ('Введено не число, повторите снова.');
+    } else if (question === randomNumber) {
       return ('Ура, победа!!!Ждем тебя снова в нашей игре.'); 
     } else if (question <= 50 && question >= 41) {
       return ('Это число меньше 41 и уже близко, тихо, а то спугнём.');
@@ -14,5 +14,5 @@ function gameOne(question) {
       return ('Вы не угадали, попробуйте еще.');
     }
   };
-  alert(gameOne(question));
+  prompt(gameOne(question));
   
