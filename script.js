@@ -195,45 +195,72 @@
 //   console.log(res);
 
 // Задание 4 
-// const userNumber = prompt('Введите ваше число');
-// function funcQuestion(userNumber) {
-//     if (userNumber < 0) {
-//         alert('Вы ввели неправильное значение');
-//     } else if (userNumber >= 0 && userNumber <= 12) {
-//         alert('Привет, друг!');
-//     } else if (userNumber >= 13){
-//         alert('Добро пожаловать!');
+// const userAge = Number(prompt('Введите ваше число'));
+// function funcQuestion(userAge) {
+//     if (userAge >= 0 && userAge <= 12) {
+//         return('Привет, друг!');
+//     } else if (userAge >= 13){
+//         return('Добро пожаловать!');
 //     } else {
-//         alert('До свидания')
+//         return('Вы ввели неправильное значение');
 //     }
-// }
+// };
+// alert(funcQuestion(userAge));
 
 // Задание 5
 
-// function checkMult() {
-//     }let a = prompt('Введите 1 число');
-//     let b = prompt('Введите 2 число');
+// let a = Number(prompt('Введите 1 число'));
+// let b = Number(prompt('Введите 2 число'));
+
+// function checkMult(a, b) {
 //     if (isNaN(a) || isNaN(b)) {
-//         console.log('Одно или оба значения не являются числом');
+//         return ('Одно или оба значения не являются числом');
 //     } else {
-//         console.log(`Произведение чисел ${Number(a) * Number(b)}`);
+//         return (`Произведение чисел ${Number(a) * Number(b)}`);
 //     }
+// };
+// console.log(checkMult(a, b));
 
 // Задание 6
 
-// function checkConstruction() {
-//     }let k = prompt('Введите ваше число');
-//     let s = (k * k);
-//     if (isNaN(k) || isNaN(s)) {
-//         console.log('Переданный параметр не является числом');
+// let check = Number(prompt('Введите ваше число'));
+
+// function checkConstruction(check) {
+//     if (isNaN(check)) {
+//         return ('Переданный параметр не является числом');
 //     } else {
-//         console.log(`k в кубе равен ${Number(k) * Number(s)}`);
+//         return (check ** 3);
 //     }
+// };
+// console.log(checkConstruction(check));
 
 // Задание 7
 
-function circle() {
-    }let circle1 = radius
+// function getCircleArea() {
+//     return this.radius ** 2 * 3.14;
+// }
+
+// function getCirclePerimeter() {
+//     return this.radius * 2 * 3.14;
+//  }
+
+//  const circle1 = {
+//     radius: 10,
+//     getArea: getCircleArea,
+//     getPerimeter: getCirclePerimeter,
+//  };
+
+//  const circle2 = {
+//     radius: 20,
+//     getArea: getCircleArea,
+//     getPerimeter: getCirclePerimeter,
+//  };
+
+//  console.log(circle1.getArea());
+//  console.log(circle1.getPerimeter());
+//  console.log(circle2.getArea());
+//  console.log(circle2.getPerimeter());
+ 
 
 
 
