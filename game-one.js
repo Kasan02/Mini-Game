@@ -14,5 +14,5 @@ function gameOne(question) {
       return ('Вы не угадали, попробуйте еще.');
     }
   };
-  prompt(gameOne(question));
+  alert(gameOne(question));
   
