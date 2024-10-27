@@ -1,4 +1,4 @@
-const a = Math.floor(Math.random () * 100000 % 100);
+const a = Math.floor(Math.random () * 100) +1;
 let num = 0; 
 
 do {
