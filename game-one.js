@@ -1,3 +1,8 @@
+const buttonGameOne = document.querySelector("oneGame");
+buttonGameOne.addEventListener("click", () => {
+  startGameOne("Game-one-check");
+})
+
 const a = Math.floor(Math.random () * 100) +1;
 let num = 0; 
 

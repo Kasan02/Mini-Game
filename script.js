@@ -156,16 +156,16 @@
 // Hw5
 
 // Задание 1
-// function max(a, b) {
+// function min(a, b) {
 //     if (a > b) {
-//         return a;
+//         return b;
 //     } else if (a === b) {
 //         return a;
 //     } else {
 //         return b;
 //     }
 // }
-// console.log(max(6, 6));
+// console.log(min(6, 6));
 
 // Задание 2
 
@@ -195,17 +195,18 @@
 //   console.log(res);
 
 // Задание 4 
-// const userAge = Number(prompt('Введите ваше число'));
+// const userAge = Number(prompt('Сколько вам лет?'));
 // function funcQuestion(userAge) {
-//     if (userAge >= 0 && userAge <= 12) {
-//         return('Привет, друг!');
+//     if (isNaN(userAge)) {
+//         alert('Вы ввели не число');
+//     } else if (userAge >= 0 && userAge <= 12) {
+//         alert('Привет, друг!');
 //     } else if (userAge >= 13){
-//         return('Добро пожаловать!');
+//         alert('Добро пожаловать!');
 //     } else {
-//         return('Вы ввели неправильное значение');
+//         alert('Вы ввели неправильное значение');
 //     }
 // };
-// alert(funcQuestion(userAge));
 
 // Задание 5
 
@@ -237,11 +238,11 @@
 // Задание 7
 
 // function getCircleArea() {
-//     return this.radius ** 2 * 3.14;
+//     return this.radius ** 2 * Math.PE;
 // }
 
 // function getCirclePerimeter() {
-//     return this.radius * 2 * 3.14;
+//     return this.radius * 2 * Math.PE;
 //  }
 
 //  const circle1 = {
