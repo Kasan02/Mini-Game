@@ -46,4 +46,5 @@ function simpleMath() {
   return(getResult());
 }
 alert(simpleMath());
+
 });
