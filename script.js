@@ -159,13 +159,11 @@
 // function min(a, b) {
 //     if (a > b) {
 //         return b;
-//     } else if (a === b) {
-//         return a;
 //     } else {
 //         return b;
 //     }
 // }
-// console.log(min(6, 6));
+// console.log(min(6, 4));
 
 // Задание 2
 
