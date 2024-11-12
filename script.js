@@ -159,13 +159,11 @@
 // function min(a, b) {
 //     if (a > b) {
 //         return b;
-//     } else if (a === b) {
-//         return a;
 //     } else {
 //         return b;
 //     }
 // }
-// console.log(min(6, 6));
+// console.log(min(6, 4));
 
 // Задание 2
 
@@ -261,7 +259,7 @@
 //  console.log(circle1.getPerimeter());
 //  console.log(circle2.getArea());
 //  console.log(circle2.getPerimeter());
-
+ 
 // Hw6
 
 // Задание 1
@@ -349,7 +347,6 @@
 //     }
 // }
 
-
 // Задание 11
 
 // function square(arr) {
@@ -374,7 +371,7 @@
 // Задание 14
 
 // function randomNumb() {
-//     return Math.floor(Math.random() * 10);
+//     return Math.floor(Math.random() * 10) + 1;
 // }
 
 // const arr = [];
