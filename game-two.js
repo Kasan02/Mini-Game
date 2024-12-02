@@ -1,0 +1,30 @@
+// Вторая игра
+
+const buttonGameTwo = document.getElementById("twoGame");
+buttonGameTwo.addEventListener("click", () => {
+function simpleMath() {
+  function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1) + min);
+  }
+  const randomInt1 = getRandomInt(0, 100);
+  const randomInt2 = getRandomInt(0, 100);
+
+  const signs = [`+`, `-`, `*`, `/`];
+  const randomIndex = Math.floor(Math.random() * (signs.length));
+  let randomSigns = signs[randomIndex];
+  function getResult() {
+    let userAnswear = Number(prompt(`Решите задачу? \n ${randomInt1} ${randomSigns} ${randomInt2}`));
+    let result;
+
+    if (userAnswear === result) {
+      alert(`Вы решили задачу Верно`);
+    } else {
+      alert(`Вы решили задачу Неверно`)
+    }
+  }
+  return(getResult());
+}
+alert(simpleMath());
+});
