@@ -428,8 +428,9 @@
 
 // Задание 4
 
-// console.log(Math.min(52, 53, 49, 77, 21, 32));
-// console.log(Math.max(52, 53, 49, 77, 21, 32));
+const numbers = [52, 53, 49, 77, 21, 32];
+console.log(Math.min(...numbers));
+console.log(Math.max(...numbers));
 
 // Задание 5
 

@@ -1,8 +1,8 @@
 const buttonGameTree = document.getElementById("treeGame");
 buttonGameTree.addEventListener("click", () => {
 
-function reverseString() {    
-    let splitString = String(prompt("Введите ваш текст")).split;  
+function reverseString(joinArray) {    
+    let splitString = String(prompt("Введите ваш текст")).split();  
     let reverseArray = splitString.reverse(); 
     let joinArray = reverseArray.join(""); 
          // "olleh" 
@@ -10,7 +10,6 @@ function reverseString() {
     return joinArray; 
 } 
 
-reverseString(); 
-});
-
 alert(joinArray); 
+
+});
