@@ -153,8 +153,6 @@
 //     console.log(`Сегодня пятница, ${i}-е число. Необходимо подготовить отчет.`);   
 // }
 
-
-
 // Hw5
 
 // Задание 1
@@ -262,6 +260,7 @@
 //  console.log(circle2.getArea());
 //  console.log(circle2.getPerimeter());
  
+
 
 
 
