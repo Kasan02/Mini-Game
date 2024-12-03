@@ -14,17 +14,27 @@ buttonGameTwo.addEventListener("click", () => {
   const randomIndex = Math.floor(Math.random() * (signs.length));
   let randomSigns = signs[randomIndex];
     let userAnswear = Number(prompt(`Решите задачу? \n ${randomInt1} ${randomSigns} ${randomInt2}`));
-    let result = randomSigns
+    let result = randomSigns;
 
-    switch(randomSigns) {
-      case "+": result = randomInt1 + randomInt2; 
-      break;
-      case "-": result = randomInt1 - randomInt2;  
-      break;
-      case "*": result = randomInt1 * randomInt2;  
-      break;
-      case "/": result = Math.floor(randomInt1 / randomInt2);  
-      break;
+    switch (randomSigns) {
+      case `+`:
+        task = (`${randomInt1} + ${randomInt2}`);
+        result = randomInt1 + randomInt2;
+        break;
+      case `-`:
+        task = (`${randomInt1} - ${randomInt2}`);
+        result = randomInt1 - randomInt2;
+        break;
+      case `*`:
+        task = (`${randomInt1} * ${randomInt2}`);
+        result = randomInt1 * randomInt2;
+        break;
+      case `/`:
+        task = (`${randomInt1} / ${randomInt2}`);
+        result = randomInt1 / randomInt2;
+        break;
+      default:
+      alert('Таких значений нет');
     }
 
     if (userAnswear === result) {
@@ -33,5 +43,4 @@ buttonGameTwo.addEventListener("click", () => {
       alert(`Вы решили задачу Неверно`)
     }
   }
-)
-  return(getResult());
+);
