@@ -428,9 +428,9 @@
 
 // Задание 4
 
-const numbers = [52, 53, 49, 77, 21, 32];
-console.log(Math.min(...numbers));
-console.log(Math.max(...numbers));
+// const numbers = [52, 53, 49, 77, 21, 32];
+// console.log(Math.min(...numbers));
+// console.log(Math.max(...numbers));
 
 // Задание 5
 
@@ -481,33 +481,4 @@ console.log(Math.max(...numbers));
 //     Время : ${hours}:${minutes}:${seconds}`
 // }
 // console.log(formatDate(new Date()));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
