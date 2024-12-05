@@ -376,14 +376,14 @@
 
 // const arr = [];
 
-// for (let i = 0; i < 10; i++) {
+// for (let i = 1; i <= 10; i++) {
 //     arr.push(randomNumb());
 // }
 // console.log(arr);
 
 // const evenArr = [];
 
-// for (let i = 0; i < arr.length; i++) {
+// for (let i = 1; i < arr.length; i++) {
 //     if (arr[i] % 2 === 0) {
 //         evenArr.push(arr[i]);
 //     }
@@ -480,6 +480,7 @@
 //     Дата : ${day} ${months[month]} ${year} - это ${dayOfWeek}.
 //     Время : ${hours}:${minutes}:${seconds}`
 // }
+
 // console.log(formatDate(new Date()));
 
 // HW8
@@ -494,3 +495,5 @@ const people = [
  ];
 
  console.log(people.sort((a, b) => b.age - a.age));
+
+
