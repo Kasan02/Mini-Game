@@ -1,5 +1,4 @@
 // Вторая игра
-
 const buttonGameTwo = document.getElementById("twoGame");
 buttonGameTwo.addEventListener("click", () => {
 function simpleMath() {
