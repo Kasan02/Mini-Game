@@ -517,7 +517,7 @@ function isPositive(num) {
     
     console.log(filter([5, -4, 1, 9], isPositive));
     
-    const people = [
+    people = [
        {name: 'Глеб', gender: 'male'},
        {name: 'Анна', gender: 'female'},
        {name: 'Олег', gender: 'male'},
