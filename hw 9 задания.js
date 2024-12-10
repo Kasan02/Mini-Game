@@ -10,8 +10,6 @@ btnEl.addEventListener("click", () => {
     titleEl.style.display = titleEl.style.display === "none" ? "block" : "none";
     console.log(titleEl.style.display);
 
-    btnEl.addEventListener("click", btnClick);
-
     function btnClick() {
 
         if (titleEl.classList.contains("hidden")) {
@@ -21,4 +19,5 @@ btnEl.addEventListener("click", () => {
         }
         titleEl.classList.toggle("hidden");
 }
+btnClick()
 });
