@@ -56,14 +56,49 @@ btnChangeClick()
 
 // <!-- Задание 4 -->
 
-    const descriptionEl = document.querySelectorAll(".description");
+    const descriptionEl = document.querySelectorAll(".description-all");
 
     console.log(descriptionEl);
     descriptionEl.forEach(description => {
 
-        description.textContent = "Измененное описание";
+        description.textContent = "Измененный текст";
     });
 
+// <!-- Задание 5 -->
+
+    const descriptionElChoice = document.querySelectorAll(".description-choice");
+
+    console.log(descriptionElChoice);
+    descriptionElChoice.forEach(description => {
+        description.textContent = "Новый текст";
+});
+
+    // <!-- Задание 6 -->
+
+    let buttonAddEl = document.querySelector(".btn-add");
+    
+    console.log(buttonAddEl);
+
+    buttonAddEl = addEventListener("click", () => {
+    const createElAdd = document.createElement("p");
+    createElAdd.textContent = "Новый абзац";
+    document.body.appendChild(createElAdd);
+    });
+
+    // <!-- Задание 7 -->
+
+    let btnRemoveEl = document.querySelector(".btn-remove");
+    const descriptionRemoveEl = document.querySelector(".description-remove");
+    
+    btnRemoveEl = addEventListener("click", function () {
+        descriptionRemoveEl.remove();
+
+        console.log(descriptionRemoveEl);
+
+    });
+    
+
+    
 
 
 
