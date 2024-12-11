@@ -79,7 +79,7 @@ btnChangeClick()
     
     console.log(buttonAddEl);
 
-    buttonAddEl = addEventListener("click", () => {
+    buttonAddEl.addEventListener("click", () => {
     const createElAdd = document.createElement("p");
     createElAdd.textContent = "Новый абзац";
     document.body.appendChild(createElAdd);
@@ -90,11 +90,10 @@ btnChangeClick()
     let btnRemoveEl = document.querySelector(".btn-remove");
     const descriptionRemoveEl = document.querySelector(".description-remove");
     
-    btnRemoveEl = addEventListener("click", function () {
+    btnRemoveEl.addEventListener("click", function () {
         descriptionRemoveEl.remove();
 
         console.log(descriptionRemoveEl);
-
     });
     
 
