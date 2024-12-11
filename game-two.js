@@ -2,7 +2,6 @@
 
 const buttonGameTwo = document.getElementById("twoGame");
 buttonGameTwo.addEventListener("click", () => {
-function simpleMath() {
   function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
@@ -14,9 +13,29 @@ function simpleMath() {
   const signs = [`+`, `-`, `*`, `/`];
   const randomIndex = Math.floor(Math.random() * (signs.length));
   let randomSigns = signs[randomIndex];
-  function getResult() {
     let userAnswear = Number(prompt(`Решите задачу? \n ${randomInt1} ${randomSigns} ${randomInt2}`));
-    let result;
+    let result = randomSigns;
+
+    switch (randomSigns) {
+      case `+`:
+        task = (`${randomInt1} + ${randomInt2}`);
+        result = randomInt1 + randomInt2;
+        break;
+      case `-`:
+        task = (`${randomInt1} - ${randomInt2}`);
+        result = randomInt1 - randomInt2;
+        break;
+      case `*`:
+        task = (`${randomInt1} * ${randomInt2}`);
+        result = randomInt1 * randomInt2;
+        break;
+      case `/`:
+        task = (`${randomInt1} / ${randomInt2}`);
+        result = randomInt1 / randomInt2;
+        break;
+      default:
+      alert('Таких значений нет');
+    }
 
     if (userAnswear === result) {
       alert(`Вы решили задачу Верно`);
@@ -24,7 +43,4 @@ function simpleMath() {
       alert(`Вы решили задачу Неверно`)
     }
   }
-  return(getResult());
-}
-alert(simpleMath());
-});
+);
