@@ -94,7 +94,27 @@
     .scroll-bar {
     height: 51px;
     position: relative;
+    &__star {
+        width: 19.34px;
+        height: 19.34px;
+        padding: 17px;
     }
+    &__title {
+        height: 18px;
+        color: rgb(32, 32, 39);
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 110%;
+        letter-spacing: 4%;
+        text-align: left;
+        text-transform: uppercase;
+        padding: 17px;
+    }
+    &__block {
+        gap: 27.4px;
+    }
+}
 
     .header__big-bottom-star {
         position: absolute;
