@@ -62,14 +62,41 @@
   .header__link-btn-mobile {
     display: none;
   }
-
 .scroll-bar {
+    max-width: 100%;
+    overflow: hidden;
+    background-color: rgb(188, 236, 48);
+    &__block {
     height: 90px;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(50px);
     background: rgb(188, 236, 48);
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    gap: 51px;
+    animation: scroll-left 10s linear infinite;
+    }
+    &__star {
+        width: 36px;
+        height: 36px;
+        padding: 27px;
+    }
+    &__title {
+        height: 33px;
+        color: rgb(32, 32, 39);
+        font-family: "Montserrat", sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 110%;
+        letter-spacing: 4%;
+        text-align: left;
+        text-transform: uppercase;
+        display: flex;
+        white-space: nowrap;
+        padding: 27px;
+    }
 }
 
 .info {
@@ -306,3 +333,4 @@
 @import 'mobile';
 @import 'tablet';
 @import 'laptop';
+@import 'scroll-bar';
