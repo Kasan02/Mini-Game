@@ -16,11 +16,6 @@
 }
 
     .header__link-btn {
-        display: none;
-        
-}
-
-.header__link-btn-tablet {
         display: block;
         box-sizing: border-box;
         border: 1px solid rgb(32, 32, 39);
@@ -39,10 +34,16 @@
         font-size: 32px;
         padding: 9px 20px;
         height: 66px;
+        
 }
 
     .info {
-        height: 3486px;
+        height: 3850px;
+}
+
+    .games-box {
+        display: flex;
+    justify-content: center;
 }
 
     .games-box__product {
@@ -57,29 +58,6 @@
 
     .games-box__grid {
         display: block;
-}
-
-    .games-box {
-        display: none;
-}
-
-    .games-box-tablet {
-        display: block;
-        padding-top: 40px;
-        display: flex;
-        justify-content: center;
-        padding-bottom: 48px;
-}
-    
-    .info-tablet {
-        display: block;
-}
-    .info {
-        display: none;
-}
-
-    .info-tablet {
-        background: rgb(32, 32, 39);
 }
 
     .flex-box {

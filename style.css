@@ -17,7 +17,7 @@
 }
 
 .header {
-  height: 800px;
+  height: 710px;
   background-color: rgb(225, 255, 143);
   background-image: url(img/bg-header.png);
   background-repeat: no-repeat;
@@ -397,12 +397,12 @@
     background: rgb(32, 32, 39);
     color: rgb(255, 255, 255);
     font-family: "Montserrat", sans-serif;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 141.69%;
     text-align: center;
     transition: all 0.5s;
-    padding: 10px 20px;
+    padding: 15px 20px;
     text-decoration: none;
     display: inline-block;
   }
@@ -511,14 +511,33 @@
   .game-play__btn {
     width: 285px;
     height: 55px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 141.69%;
+    letter-spacing: 0%;
+    text-align: center;
   }
   .margin {
     margin: 0;
+  }
+  .footer {
+    height: 100px;
+  }
+  .footer__text {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 40px;
   }
   .footer__big-bottom-star {
     display: none;
   }
   .footer__mini-bottom-star {
+    display: none;
+  }
+  .delete-mob {
     display: none;
   }
 }
@@ -537,9 +556,6 @@
     justify-content: center;
   }
   .header__link-btn {
-    display: none;
-  }
-  .header__link-btn-tablet {
     display: block;
     box-sizing: border-box;
     border: 1px solid rgb(32, 32, 39);
@@ -560,7 +576,11 @@
     height: 66px;
   }
   .info {
-    height: 3486px;
+    height: 3850px;
+  }
+  .games-box {
+    display: flex;
+    justify-content: center;
   }
   .games-box__product {
     width: 450px;
@@ -572,25 +592,6 @@
   }
   .games-box__grid {
     display: block;
-  }
-  .games-box {
-    display: none;
-  }
-  .games-box-tablet {
-    display: block;
-    padding-top: 40px;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 48px;
-  }
-  .info-tablet {
-    display: block;
-  }
-  .info {
-    display: none;
-  }
-  .info-tablet {
-    background: rgb(32, 32, 39);
   }
   .flex-box {
     display: flex;
